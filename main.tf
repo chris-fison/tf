@@ -12,7 +12,7 @@ terraform {
     resource_group_name   = "fisontech-infra"
     storage_account_name  = "fisontechstate"
     container_name        = "tfstate"
-    key                   = "infra-example.tfstate"
+    key                   = "infra.tfstate"
 }
 }
 
